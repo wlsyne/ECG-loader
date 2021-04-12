@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "allowSyntheticDefaultImports": true,
+      "module": "esnext",
+      "target": "esnext",
+      "jsx": "preserve",
+      "allowJs": true,
+      "baseUrl": ".",
+    //   "paths": {
+    //     "@app/*": ["app/*"],
+    //     "@images/*": ["app/assets/images/*"]
+    //   }
+    },
+    "exclude": ["node_modules"]
+  }
