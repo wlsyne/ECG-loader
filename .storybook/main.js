@@ -4,7 +4,7 @@ module.exports = {
   webpackFinal: async (config, { configType }) => {
     config.module.rules.push({
       test: /\.less$/,
-      use: ['css-loader', 'less-loader'],
+      use: ['style-loader','css-loader', 'less-loader'],
     });
     return config;
   },
